@@ -1,5 +1,5 @@
 name: mccloud_deepseek # 这是你的插件的唯一识别名。
-desc: 可选择是否过滤推理模型的思考内容，仅支持MC云API，支持deepseek-r1 v3。购买服务器云电脑可享受免费API。https://idc.stay33.cn/
+desc: 可选择是否过滤推理模型的思考内容，仅支持MC云API。购买MC云服务器云电脑可享受免费API不限制支持deepseek-r1 v3模型。https://idc.stay33.cn/
 help:  # 插件的帮助信息
 version: v1.0 # 插件版本号。格式：v1.1.1 或者 v1.1
 author: MC云-小馒头 # 作者
