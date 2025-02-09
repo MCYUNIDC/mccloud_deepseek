@@ -4,7 +4,7 @@ from astrbot.api.star import Context, Star, register
 from astrbot.api.provider import LLMResponse
 from openai.types.chat.chat_completion import ChatCompletion
 
-@register("mccloud_deepseek", "MC云-小馒头", "可选择是否过滤推理模型的思考内容，仅支持MC云API，支持deepseek-r1 v3。购买服务器云电脑可享受免费API。https://idc.stay33.cn/", "1.0", 'https://github.com/MCYUNIDC/mccloud_deepseek')
+@register("mccloud_deepseek", "MC云-小馒头", "可选择是否过滤推理模型的思考内容，仅支持MC云API。购买MC云服务器云电脑可享受免费API不限制支持deepseek-r1 v3模型。https://idc.stay33.cn/", "1.0", 'https://github.com/MCYUNIDC/mccloud_deepseek')
 class R1Filter(Star):
     def __init__(self, context: Context, config: dict):
         super().__init__(context)
